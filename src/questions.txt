@@ -1,0 +1,22 @@
+TF;A superclass's constructor must always invoke the subclass's constructor first.;false;12
+MC;@param is a:;3;Instance Variable;Class Variable;Javadoc tag;C;10
+FB;______ is the best CISC class.;230;50
+FB;In Java "2==1||3!=4" evaluates to _______.;true;4
+MC;Which of the following is a valid Java identifier?;4;hello-world;hello_world;_helloWorld;HelloWorld;D;8
+TF;Java supports multiple inheritance.;false;6
+FB;The maximum value of a byte in Java is _______.;127;3
+MC;Which of the following is not a primitive data type in Java?;4;int;double;String;float;C;7
+MC;Which of the following is not a keyword in Java?;4;class;public;void;main;C;6
+MC;What does JVM stand for?;4;Java Virtual Machine;Java Virtual Memory;Java Variable Machine;Java Variable Memory;A;8
+FB;The acronym GUI stands for _________.;Graphical User Interface;5
+FB;The result of 8 * 4 is _________.;32;3
+MC;What is the default value of a boolean variable in Java?;4;false;true;null;0;A;6
+TF;Java programs are platform-dependent.;false;6
+FB;The number of bits in a byte is _________.;8;4
+MC;Which of the following is an access specifier in Java?;4;private;finalize;static;package;A;7
+TF;In Java, a class can extend multiple classes.;false;9
+TF;Java is an object-oriented programming language.;true;10
+MC;Which of the following is not a Java keyword?;4;break;class;public;static;B;7
+FB;The Java keyword used to exit from a loop is _________.;break;6
+MC;Which of the following is true about constructors in Java?;4;They can be inherited;They can be overloaded;They can be overridden;They can be private;B;8
+TF;In Java, arrays can have a variable length.;false;6
