@@ -1,24 +1,16 @@
-package StudyPal_Project;
-
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.control.ScrollPane.ScrollBarPolicy;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 import javafx.scene.media.AudioClip;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
-import javafx.scene.text.Text;
-import javafx.scene.text.TextAlignment;
+import javafx.scene.text.*;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.animation.PauseTransition;
@@ -573,7 +565,8 @@ public class StudyBuddy extends Application {
  			
  		}
  	}
- 	
+
+	// Method to take questions randomly
  	private void takeRandom() {
  		mainStatus.setText("");
  		mainStatus.setFill(Color.BLACK);
@@ -635,7 +628,8 @@ public class StudyBuddy extends Application {
  		currentIndex = delayIndex.get(0);
  		mainQuestion.setText(questionsLibrary[currentIndex].display());
  	}
- 	
+
+	// Method to end the quiz
  	private void endOfTutor() {
 		String s = "Of the " + initialNum + " questions you attempted, you got " + correctIndex.size() +" correct.";
 		s += "\nYou earned a total of " + earnPoint + " points out of " + totalPoint + " points.";
