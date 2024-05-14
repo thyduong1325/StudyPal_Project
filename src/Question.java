@@ -1,6 +1,7 @@
 public interface Question {
     String getQuestion();
     boolean isCorrect(String ans);
-    String getCorrectAns();
+    String getCorrectAnswer();
     int getPoints();
+    String display();
 }
