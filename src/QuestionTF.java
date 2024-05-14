@@ -1,4 +1,4 @@
-public class TrueFalseQuestion extends Question {
+public class QuestionTF extends Question {
     private boolean correctAnswer;
 
     public TrueFalseQuestion(String questionText, boolean correctAnswer, int points) {
